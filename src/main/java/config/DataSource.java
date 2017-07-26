@@ -8,6 +8,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -37,16 +38,16 @@ public class DataSource {
     private String dialect;
 
     @Value("${datasource.showsql}")
-    private Boolean showSql;
+    private String showSql;
 
     @Value("${datasource.generateDDL}")
-    private Boolean generateDDL;
+    private String generateDDL;
 
     @Value("${datasource.hibernate.hbm2ddl.auto}")
     private String hbm2ddlAuto;
 
     @Value("${datasource.url}")
-    private Boolean url;
+    private String url;
 
     @Value("${datasource.driverClassName}")
     private String driverClass;
@@ -61,8 +62,8 @@ public class DataSource {
     private String initSql;
 
     @Bean
-    @ConfigurationProperties(prefix = "com.datasource")
-    public javax.sql.DataSource globalDataSource() {
+    @ConfigurationProperties(prefix = "datasource")
+    public javax.sql.DataSource forexDataSource() {
         return DataSourceBuilder.create().build();
 
     }
@@ -75,7 +76,7 @@ public class DataSource {
     @Bean
     public EntityManagerFactory globalEntityManagerFactory() {
         return genericEntityManagerFactory
-                (globalDataSource(), initSql);
+                (forexDataSource(), initSql);
     }
 
     @Bean
@@ -92,8 +93,8 @@ public class DataSource {
      */
     public EntityManagerFactory genericEntityManagerFactory(javax.sql.DataSource dataSource, String scriptPath) {
         HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
-        vendorAdapter.setShowSql(showSql);
-        vendorAdapter.setGenerateDdl(generateDDL);
+        vendorAdapter.setShowSql(new Boolean(showSql));
+        vendorAdapter.setGenerateDdl(new Boolean(generateDDL));
         vendorAdapter.setDatabasePlatform(dialect);
         Properties jpaProperties = new Properties();
 
@@ -127,4 +128,8 @@ public class DataSource {
         return factory;
     }
 
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer propertyConfigIn() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
 }
