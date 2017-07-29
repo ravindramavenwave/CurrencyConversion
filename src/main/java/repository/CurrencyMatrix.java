@@ -15,14 +15,16 @@ public class CurrencyMatrix  implements Serializable {
     private String base;
 
     @Column
-    private String toCurr;
+    private String toCurrency;
 
     @Column
     private String relation;
 
+    public CurrencyMatrix(){}
+
     public CurrencyMatrix(String base, String toCurr, String relation) {
         this.base = base;
-        this.toCurr = toCurr;
+        this.toCurrency = toCurr;
         this.relation = relation;
     }
 
@@ -43,11 +45,11 @@ public class CurrencyMatrix  implements Serializable {
     }
 
     public String getToCurr() {
-        return toCurr;
+        return toCurrency;
     }
 
     public void setToCurr(String toCurr) {
-        this.toCurr = toCurr;
+        this.toCurrency = toCurr;
     }
 
     public String getRelation() {
@@ -67,7 +69,7 @@ public class CurrencyMatrix  implements Serializable {
 
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
         if (base != null ? !base.equals(that.base) : that.base != null) return false;
-        if (toCurr != null ? !toCurr.equals(that.toCurr) : that.toCurr != null) return false;
+        if (toCurrency != null ? !toCurrency.equals(that.toCurrency) : that.toCurrency != null) return false;
         return relation != null ? relation.equals(that.relation) : that.relation == null;
     }
 
@@ -75,7 +77,7 @@ public class CurrencyMatrix  implements Serializable {
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (base != null ? base.hashCode() : 0);
-        result = 31 * result + (toCurr != null ? toCurr.hashCode() : 0);
+        result = 31 * result + (toCurrency != null ? toCurrency.hashCode() : 0);
         result = 31 * result + (relation != null ? relation.hashCode() : 0);
         return result;
     }

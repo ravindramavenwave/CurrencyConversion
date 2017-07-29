@@ -1,0 +1,3 @@
+create TABLE Currency(code VARCHAR(3) PRIMARY KEY, country VARCHAR(100));
+create TABLE Currency_Matrix(id INT PRIMARY KEY ,base VARCHAR(3) FOREIGN KEY REFERENCES Currency(code),to_Currency VARCHAR(3) FOREIGN KEY REFERENCES Currency(code),relation VARCHAR(3));
+create TABLE Exchange_Rate(id INT PRIMARY KEY,from_Currency  VARCHAR(3) FOREIGN KEY REFERENCES Currency(code),to_Currency VARCHAR(3) FOREIGN KEY REFERENCES Currency(code),ratio DECIMAL)

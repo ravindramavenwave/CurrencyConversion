@@ -17,6 +17,7 @@ import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
@@ -24,14 +25,16 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import java.util.Properties;
 
-@Configuration
+
 @EnableConfigurationProperties
 @EnableTransactionManagement
 @EnableJpaRepositories(
         entityManagerFactoryRef = "currEntityManagerFactory",
         transactionManagerRef = "currTransactionManager",
         basePackages = {"repository"})
-@PropertySource("classpath:DbConfig.properties")
+@PropertySource("classpath:application.properties")
+@PropertySource("classpath:${profile}-DbConfig.properties")
+@Configuration
 public class DataSource {
 
     @Value("${datasource.dialect}")
@@ -69,19 +72,19 @@ public class DataSource {
     }
 
     @Bean
-    public PlatformTransactionManager globalTransactionManager() {
-        return new JpaTransactionManager(globalEntityManagerFactory());
+    public PlatformTransactionManager currTransactionManager() {
+        return new JpaTransactionManager(currEntityManagerFactory());
     }
 
     @Bean
-    public EntityManagerFactory globalEntityManagerFactory() {
+    public EntityManagerFactory currEntityManagerFactory() {
         return genericEntityManagerFactory
                 (forexDataSource(), initSql);
     }
 
     @Bean
     public EntityManager entityManager() {
-        return globalEntityManagerFactory().createEntityManager();
+        return currEntityManagerFactory().createEntityManager();
     }
 
     /**
