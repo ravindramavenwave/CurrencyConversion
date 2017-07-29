@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[currencyconversion] - ...\pom.xml'" />
-    <option name="defaultScopeName" value="File '[currencyconversion] - ...\pom.xml'" />
-    <option name="SEARCH_SCOPE" value="File '[currencyconversion] - ...\pom.xml'" />
+    <option name="customScope" value="Project 'currencyconversion'" />
+    <option name="defaultScopeName" value="Project 'currencyconversion'" />
+    <option name="SEARCH_SCOPE" value="Project 'currencyconversion'" />
   </component>
 </application>
