@@ -12,9 +12,14 @@ INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (5,'CHK','EUR',
 INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (6,'JPN','USD','D');
 INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (7,'JPN','CAD','USD');
 INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (8,'JPN','CHK','USD');
+INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (9,'AUD','JPN','USD');
+INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (10,'AUD','CHK','USD');
+INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (11,'CHK','USD','EUR');
+INSERT INTO Currency_Matrix(id,base,to_Currency,relation) VALUES (12,'USD','EUR','Inv');
 
-INSERT INTO Exchange_Rate(id,from_Currency,to_Currency,ratio) VALUES (1,'CAD','USD',0.9);
-INSERT INTO Exchange_Rate(id,from_Currency,to_Currency,ratio) VALUES (2,'EUR','USD',1.9);
-INSERT INTO Exchange_Rate(id,from_Currency,to_Currency,ratio) VALUES (3,'AUD','USD',0.95);
-INSERT INTO Exchange_Rate(id,from_Currency,to_Currency,ratio) VALUES (4,'JPN','USD',400);
-INSERT INTO Exchange_Rate(id,from_Currency,to_Currency,ratio) VALUES (5,'CHK','EUR',9.1);
+
+INSERT INTO Exchange_Rate(date,from_currency,id,to_currency,ratio) VALUES (20170701,'CAD',1,'USD',2.0);
+INSERT INTO Exchange_Rate(date,from_Currency,id,to_Currency,ratio) VALUES (20170701,'EUR',2,'USD',3.0);
+INSERT INTO Exchange_Rate(date,from_Currency,id,to_Currency,ratio) VALUES (20170701,'AUD',3,'USD',4.0);
+INSERT INTO Exchange_Rate(date,from_Currency,id,to_Currency,ratio) VALUES (20170701,'JPN',4,'USD',400);
+INSERT INTO Exchange_Rate(date,from_Currency,id,to_Currency,ratio) VALUES (20170701,'CHK',5,'EUR',10.0);

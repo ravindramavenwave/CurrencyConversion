@@ -1,6 +1,5 @@
-import com.forex.service.ApplicationDataInitService;
-import config.AppConfig;
-import config.DataSource;
+import com.forex.service.ConversionMatrixService;
+import com.forex.ApplicationStart;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,18 +13,18 @@ import java.util.Map;
  * Created by ravindras on 7/29/2017.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = {AppConfig.class})
+@SpringApplicationConfiguration(classes = {ApplicationStart.class})
 public class CurrencyConversionLoadTest {
 
     @Autowired
-    private ApplicationDataInitService currencyConversionMatrix;
+    private ConversionMatrixService conversionMatrixService;
 
     @Test
     public void testCurrencyMatrixLoad(){
 
-        Map<String, String> currencyMatrixMap =   currencyConversionMatrix.getCurrencyMatrixMap();
+        Map<String, String> currencyMatrixMap =   conversionMatrixService.getCurrencyMatrixMap();
 
-        Assert.assertEquals(currencyMatrixMap.size(),5);
+        Assert.assertEquals(currencyMatrixMap.size(),11);
 
     }
 

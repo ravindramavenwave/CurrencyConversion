@@ -1,4 +1,4 @@
-package repository;
+package com.forex.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -13,7 +13,7 @@ public class ExchangeRate implements Serializable{
     private Long id;
 
     @Column
-    private Double rate;
+    private Double ratio;
 
     @Column(nullable = false)
     private String fromCurrency;
@@ -33,11 +33,11 @@ public class ExchangeRate implements Serializable{
     }
 
     public Double getRate() {
-        return rate;
+        return ratio;
     }
 
     public void setRate(Double rate) {
-        this.rate = rate;
+        this.ratio = rate;
     }
 
     public String getFromCurrency() {
@@ -66,8 +66,8 @@ public class ExchangeRate implements Serializable{
 
     public ExchangeRate(){}
 
-    public ExchangeRate(Double rate, String fromCurrency, String toCurrency, Integer date) {
-        this.rate = rate;
+    public ExchangeRate(Double ratio, String fromCurrency, String toCurrency, Integer date) {
+        this.ratio = ratio;
         this.fromCurrency = fromCurrency;
         this.toCurrency = toCurrency;
         this.date = date;
@@ -81,7 +81,7 @@ public class ExchangeRate implements Serializable{
         ExchangeRate that = (ExchangeRate) o;
 
         if (id != null ? !id.equals(that.id) : that.id != null) return false;
-        if (rate != null ? !rate.equals(that.rate) : that.rate != null) return false;
+        if (ratio != null ? !ratio.equals(that.ratio) : that.ratio != null) return false;
         if (fromCurrency != null ? !fromCurrency.equals(that.fromCurrency) : that.fromCurrency != null) return false;
         if (toCurrency != null ? !toCurrency.equals(that.toCurrency) : that.toCurrency != null) return false;
         return date != null ? date.equals(that.date) : that.date == null;
@@ -90,7 +90,7 @@ public class ExchangeRate implements Serializable{
     @Override
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (rate != null ? rate.hashCode() : 0);
+        result = 31 * result + (ratio != null ? ratio.hashCode() : 0);
         result = 31 * result + (fromCurrency != null ? fromCurrency.hashCode() : 0);
         result = 31 * result + (toCurrency != null ? toCurrency.hashCode() : 0);
         result = 31 * result + (date != null ? date.hashCode() : 0);
