@@ -1,4 +1,4 @@
-package config;
+package com.forex;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -31,8 +31,7 @@ import java.util.Properties;
 @EnableJpaRepositories(
         entityManagerFactoryRef = "currEntityManagerFactory",
         transactionManagerRef = "currTransactionManager",
-        basePackages = {"repository"})
-@PropertySource("classpath:application.properties")
+        basePackages = {"com.forex.entity"})
 @PropertySource("classpath:${profile}-DbConfig.properties")
 @Configuration
 public class DataSource {

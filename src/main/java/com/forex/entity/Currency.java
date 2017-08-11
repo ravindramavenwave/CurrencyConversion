@@ -1,4 +1,4 @@
-package repository;
+package com.forex.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;

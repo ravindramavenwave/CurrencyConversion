@@ -1,0 +1,40 @@
+19:48:57.709 [main] {user: } INFO  com.forex.ApplicationStart - Starting ApplicationStart on Ravindra with PID 3960 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+19:48:57.732 [main] {user: } DEBUG com.forex.ApplicationStart - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+19:49:20.055 [main] {user: } DEBUG com.forex.service.LoadSqlDataService -  Database init method called for DB load
+19:49:21.274 [main] {user: } INFO  c.f.s.ConversionRateDataService - Init Method called for ExchangeRateService
+19:49:21.314 [main] {user: } INFO  c.f.s.ConversionRateDataService - Exchange rates loaded10
+19:49:21.318 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+19:49:21.336 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items56
+19:49:23.439 [main] {user: } INFO  com.forex.ApplicationStart - Started ApplicationStart in 28.12 seconds (JVM running for 38.299)
+20:17:17.361 [http-nio-8080-exec-8] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Extract exchange rate from AUD to USD
+20:17:17.364 [http-nio-8080-exec-8] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from AUD to USD
+20:17:17.364 [http-nio-8080-exec-8] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Calculated exchange rate from AUD to USD rate :0.8371
+20:18:54.487 [main] {user: } DEBUG com.forex.service.LoadSqlDataService -  Database init method called for DB load
+20:18:55.131 [main] {user: } INFO  c.f.s.ConversionRateDataService - Init Method called for ExchangeRateService
+20:18:55.145 [main] {user: } INFO  c.f.s.ConversionRateDataService - Exchange rates loaded5
+20:18:55.151 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+20:18:55.161 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items11
+20:18:56.532 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Extract exchange rate from AUD to USD
+20:18:56.533 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from AUD to USD
+20:18:56.533 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Calculated exchange rate from AUD to USD rate :4.0
+20:18:56.533 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Extract exchange rate from JPN to USD
+20:18:56.533 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from JPN to USD
+20:18:56.533 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Calculated exchange rate from JPN to USD rate :400.0
+20:18:56.533 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Extract exchange rate from CAD to USD
+20:18:56.533 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from CAD to USD
+20:18:56.533 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Calculated exchange rate from CAD to USD rate :2.0
+20:18:56.533 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Extract exchange rate from AUD to JPN
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from AUD to JPN
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from AUD to USD
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from JPN to USD
+20:18:56.534 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Rate calculated :0.01
+20:18:56.534 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Calculated exchange rate from AUD to JPN rate :0.01
+20:18:56.534 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Extract exchange rate from AUD to CHK
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from AUD to CHK
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from AUD to USD
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from CHK to USD
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from CHK to EUR
+20:18:56.534 [main] {user: } INFO  c.f.s.ForexRateCalculatorService -  Calculate exchange rate from USD to EUR
+20:18:56.534 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Rate calculated :30.0
+20:18:56.534 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Rate calculated :0.13333333333333333
+20:18:56.534 [main] {user: } DEBUG c.f.s.ForexRateCalculatorService -  Calculated exchange rate from AUD to CHK rate :0.13333333333333333

@@ -1,9 +1,10 @@
 package com.forex.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.jdbc.datasource.init.DatabasePopulatorUtils;
@@ -12,12 +13,11 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 
-/**
- * Created by ravindras on 7/29/2017.
- */
+
 @Service("loadApplicationDataService")
 @DependsOn("currEntityManagerFactory")
-public class LoadApplicationDataService {
+public class LoadSqlDataService {
+    private static final Logger logger = LoggerFactory.getLogger(LoadSqlDataService.class);
 
     @Autowired
     protected ConfigurableApplicationContext context;
@@ -31,7 +31,7 @@ public class LoadApplicationDataService {
 
     @PostConstruct
     public void initDbLoad(){
-
+        logger.debug(" Database init method called for DB load");
         javax.sql.DataSource dataSource = (javax.sql.DataSource) context.getBean("forexDataSource");
         // Populate the database with some data
         ResourceDatabasePopulator populator = new ResourceDatabasePopulator();

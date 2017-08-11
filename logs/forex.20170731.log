@@ -1,0 +1,161 @@
+22:32:13.670 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+22:32:14.087 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+22:32:14.604 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded5
+22:32:14.635 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+22:32:14.657 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items11
+22:32:15.876 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to USD
+22:32:15.877 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:32:15.877 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to USD rate :4.0
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from JPN to USD
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPN to USD
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from JPN to USD rate :400.0
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from CAD to USD
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from CAD to USD
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from CAD to USD rate :2.0
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to JPN
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to JPN
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPN to USD
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to JPN rate :0.01
+22:32:15.878 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to CHK
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to CHK
+22:32:15.878 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:32:15.879 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from CHK to USD
+22:32:15.879 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from CHK to EUR
+22:32:15.879 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+22:32:15.879 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to CHK rate :0.13333333333333333
+22:39:59.194 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+22:39:59.695 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+22:40:00.165 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded5
+22:40:00.196 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+22:40:00.212 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items11
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to USD
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to USD rate :4.0
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from JPN to USD
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPN to USD
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from JPN to USD rate :400.0
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from CAD to USD
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from CAD to USD
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from CAD to USD rate :2.0
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to JPN
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to JPN
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPN to USD
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to JPN rate :0.01
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to CHK
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to CHK
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from CHK to USD
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from CHK to EUR
+22:40:01.193 [main] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+22:40:01.193 [main] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to CHK rate :0.13333333333333333
+22:40:35.572 [main] {user: } INFO  com.forex.AppConfig - Starting AppConfig on Ravindra with PID 13092 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+22:40:35.590 [main] {user: } DEBUG com.forex.AppConfig - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+22:40:46.396 [main] {user: } INFO  com.forex.AppConfig - Starting AppConfig on Ravindra with PID 3976 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+22:40:46.411 [main] {user: } DEBUG com.forex.AppConfig - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+22:41:28.916 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+22:41:29.201 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+22:41:29.633 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded10
+22:41:29.649 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+22:41:29.664 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items56
+22:41:30.535 [main] {user: } INFO  com.forex.AppConfig - Started AppConfig in 44.556 seconds (JVM running for 46.025)
+22:43:00.191 [main] {user: } INFO  com.forex.AppConfig - Starting AppConfig on Ravindra with PID 1448 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+22:43:00.191 [main] {user: } DEBUG com.forex.AppConfig - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+22:43:06.291 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+22:43:06.491 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+22:43:06.814 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded10
+22:43:06.830 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+22:43:06.845 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items56
+22:43:07.331 [main] {user: } INFO  com.forex.AppConfig - Started AppConfig in 7.441 seconds (JVM running for 8.569)
+22:43:58.666 [http-nio-8080-exec-2] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from USD to AUD
+22:43:58.666 [http-nio-8080-exec-2] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to AUD
+22:43:58.666 [http-nio-8080-exec-2] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from USD to AUD rate :1.1946004061641382
+22:44:39.053 [http-nio-8080-exec-4] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to USD
+22:44:39.053 [http-nio-8080-exec-4] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:44:39.053 [http-nio-8080-exec-4] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to USD rate :0.8371
+22:46:00.435 [http-nio-8080-exec-9] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from JPY to USD
+22:46:00.435 [http-nio-8080-exec-9] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPY to USD
+22:46:00.435 [http-nio-8080-exec-9] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from JPY to USD rate :0.008336807002917883
+22:47:19.972 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to JPY
+22:47:19.972 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to JPY
+22:47:19.972 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:47:19.972 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPY to USD
+22:47:19.972 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to JPY rate :100.41014499999999
+22:51:03.372 [http-nio-8080-exec-2] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to DKK
+22:51:03.372 [http-nio-8080-exec-2] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to DKK
+22:51:03.372 [http-nio-8080-exec-2] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+22:51:03.372 [http-nio-8080-exec-2] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to USD
+22:51:03.372 [http-nio-8080-exec-2] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to EUR
+22:51:03.372 [http-nio-8080-exec-2] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+22:51:03.372 [http-nio-8080-exec-2] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to DKK rate :5.057606617945594
+23:02:00.468 [main] {user: } INFO  com.forex.AppConfig - Starting AppConfig on Ravindra with PID 10556 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+23:02:00.497 [main] {user: } DEBUG com.forex.AppConfig - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+23:02:13.587 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+23:02:13.824 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+23:02:14.287 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded10
+23:02:14.287 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+23:02:14.303 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items56
+23:02:14.904 [main] {user: } INFO  com.forex.AppConfig - Started AppConfig in 15.167 seconds (JVM running for 16.517)
+23:04:27.410 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to DKK
+23:04:27.426 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to DKK
+23:04:27.426 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:04:27.426 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to USD
+23:04:27.426 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to EUR
+23:04:27.426 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+23:04:27.426 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to DKK rate :5.057606617945594
+23:06:15.805 [main] {user: } INFO  com.forex.AppConfig - Starting AppConfig on Ravindra with PID 10424 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+23:06:15.810 [main] {user: } DEBUG com.forex.AppConfig - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+23:06:22.211 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+23:06:22.412 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+23:06:22.760 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded10
+23:06:22.775 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+23:06:22.791 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items56
+23:06:23.261 [main] {user: } INFO  com.forex.AppConfig - Started AppConfig in 7.815 seconds (JVM running for 9.312)
+23:06:48.271 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to DKK
+23:06:48.271 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to DKK
+23:06:48.271 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:06:48.271 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to USD
+23:06:48.271 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to EUR
+23:06:48.271 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+23:06:48.271 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to DKK rate :5.057606617945594
+23:07:45.031 [http-nio-8080-exec-3] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to USD
+23:07:45.031 [http-nio-8080-exec-3] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:07:45.031 [http-nio-8080-exec-3] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to USD rate :0.8371
+23:08:00.390 [http-nio-8080-exec-5] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to USD
+23:08:00.390 [http-nio-8080-exec-5] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:08:00.390 [http-nio-8080-exec-5] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to USD rate :0.8371
+23:14:39.815 [main] {user: } INFO  com.forex.AppConfig - Starting AppConfig on Ravindra with PID 6936 (C:\Users\sharan\Documents\GitHub\CurrencyConversion\target\classes started by sharan in C:\Users\sharan\Documents\GitHub\CurrencyConversion)
+23:14:39.831 [main] {user: } DEBUG com.forex.AppConfig - Running with Spring Boot v1.2.5.RELEASE, Spring v4.1.7.RELEASE
+23:14:45.665 [main] {user: } DEBUG c.f.s.LoadApplicationDataService -  Database init method called for DB load
+23:14:45.881 [main] {user: } INFO  c.forex.service.ExchangeRateService - Init Method called for ExchangeRateService
+23:14:46.198 [main] {user: } INFO  c.forex.service.ExchangeRateService - Exchange rates loaded10
+23:14:46.220 [main] {user: } INFO  c.f.service.ConversionMatrixService - Init Method called for ConversionMatrixService
+23:14:46.236 [main] {user: } INFO  c.f.service.ConversionMatrixService -  ConversionMatrixService loaded items56
+23:14:46.739 [main] {user: } INFO  com.forex.AppConfig - Started AppConfig in 7.239 seconds (JVM running for 8.461)
+23:14:56.874 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to USD
+23:14:56.874 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:14:56.874 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to USD rate :0.8371
+23:15:20.507 [http-nio-8080-exec-5] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to JPY
+23:15:20.507 [http-nio-8080-exec-5] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to JPY
+23:15:20.507 [http-nio-8080-exec-5] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:15:20.507 [http-nio-8080-exec-5] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPY to USD
+23:15:20.507 [http-nio-8080-exec-5] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to JPY rate :100.41014499999999
+23:16:17.864 [http-nio-8080-exec-6] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from JPY to USD
+23:16:17.880 [http-nio-8080-exec-6] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from JPY to USD
+23:16:17.880 [http-nio-8080-exec-6] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from JPY to USD rate :0.008336807002917883
+23:16:42.731 [http-nio-8080-exec-7] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to DKK
+23:16:42.731 [http-nio-8080-exec-7] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to DKK
+23:16:42.731 [http-nio-8080-exec-7] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:16:42.731 [http-nio-8080-exec-7] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to USD
+23:16:42.731 [http-nio-8080-exec-7] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from DKK to EUR
+23:16:42.731 [http-nio-8080-exec-7] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+23:16:42.731 [http-nio-8080-exec-7] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to DKK rate :5.057606617945594
+23:17:08.272 [http-nio-8080-exec-9] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to AUD
+23:17:47.642 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Extract exchange rate from AUD to NOK
+23:17:47.642 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to NOK
+23:17:47.642 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from AUD to USD
+23:17:47.642 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from NOK to USD
+23:17:47.642 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from NOK to EUR
+23:17:47.642 [http-nio-8080-exec-1] {user: } INFO  c.f.s.CurrencyConversionService -  Calculate exchange rate from USD to EUR
+23:17:47.642 [http-nio-8080-exec-1] {user: } DEBUG c.f.s.CurrencyConversionService -  Calculated exchange rate from AUD to NOK rate :5.8900164108810396

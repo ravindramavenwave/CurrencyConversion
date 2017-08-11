@@ -1,5 +1,6 @@
-package repository;
+package com.forex.entity;
 
+import com.forex.entity.ExchangeRate;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
